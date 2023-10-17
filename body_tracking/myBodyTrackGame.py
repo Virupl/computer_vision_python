@@ -3,14 +3,12 @@ import time
 from bodyTrackingModule import poseDetector
 
 ##################################
-url = 'http://192.168.1.22:4747/video'
 video = 'C:\\Users\\PC\\Documents\\Computer vision\\body_tracking\\images\\video.mp4'
 pTime = 0
 cTime = 0
 ##################################
 
 # cap = cv2.VideoCapture(0)
-# cap = cv2.VideoCapture(url)
 cap = cv2.VideoCapture(video)
 # cap.set(3, 640)
 # cap.set(4, 480)

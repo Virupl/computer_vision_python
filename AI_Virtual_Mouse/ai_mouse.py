@@ -7,8 +7,6 @@ import handTrackingModule as htm
 
 pyautogui.FAILSAFE = False
 ##########################################
-url = 'http://192.168.92.40:4747/video'
-# url = 'http://192.168.1.2:4747/video'
 wCam, hCam = 640, 480
 cTime = 0
 pTime = 0
@@ -18,7 +16,6 @@ plocX, plocY = 0, 0
 clocX, clocY = 0, 0
 ##########################################
 
-# cap = cv2.VideoCapture(url)
 cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)

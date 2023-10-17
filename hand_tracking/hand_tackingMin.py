@@ -2,11 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-url = 'http://192.168.92.40:4747/video'
-
-# cap = cv2.VideoCapture(0)
-
-cap = cv2.VideoCapture(url)
+cap = cv2.VideoCapture(0)
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands()
@@ -48,5 +44,5 @@ while True:
     if cv2.waitKey(1) & 0xff == ord('q'):
         break
 
-cap.released()
+cap.release()
 cv2.destroyAllWindows()

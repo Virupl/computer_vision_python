@@ -5,10 +5,8 @@ import handTrackingModule as htm
 
 pTime = 0
 cTime = 0
-url = 'http://192.168.92.40:4747/video'
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
-cap = cv2.VideoCapture(url)
 detector = htm.handDetector()
 
 while True:
