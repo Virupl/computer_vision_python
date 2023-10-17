@@ -5,7 +5,7 @@ import time
 
 ##################################
 url = 'http://192.168.1.22:4747/video'
-video = 'body_tracking/images/video.mp4'
+video = 'C:\\Users\\PC\\Documents\\Computer vision\\body_tracking\\images\\video.mp4'
 pTime = 0
 cTime = 0
 ##################################
